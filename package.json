@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malisanjay5433/TestPlugin.git.git"
+    "url": "https://github.com/malisanjay5433/test-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/malisanjay5433/TestPlugin.git/issues"
