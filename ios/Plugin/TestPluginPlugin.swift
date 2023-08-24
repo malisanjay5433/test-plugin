@@ -15,4 +15,12 @@ public class TestPluginPlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
+
+
+     @objc func displayMessage(_ call: CAPPluginCall) {
+        let value = call.getString("value") ?? ""
+        call.resolve([
+            "value": implementation.echo(value)
+        ])
+    }
 }
